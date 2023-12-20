@@ -4,14 +4,21 @@ Das `<nav>`-Element repräsentiert eine Sektion einer Webseite, welche die Aufga
 
 ## Beispiel
 
-```HTML
-<nav class="menu">
-    <ul>
-        <li><a href="#Home">Home</a></li>
-        <li><a href="#About">About</a></li>
-        <li><a href="#Contact">Contact</a></li>
-    </ul>
-</nav>
-```
-
-![nav.png](nav.png) { width="350" thumbnail="true" }
+<tabs>
+    <tab title="HTML">
+        <code-block lang="html">
+            <![CDATA[
+                <h1>The nav element</h1>
+                <p>The nav element defines a set of navigation links:</p>
+                <nav>
+                    <a href="HTML.md">HTML</a> |
+                    <a href="CSS.md">CSS</a> |
+                    <a href="JavaScript.md">JavaScript</a>
+                </nav>
+            ]]>
+        </code-block>
+    </tab>
+    <tab title="Resultat">
+        <img src="nav_2.png" thumbnail="true" width="350" />
+    </tab>
+</tabs>

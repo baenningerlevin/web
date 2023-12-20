@@ -28,16 +28,6 @@ Auch Bilder können in Links umgewandelt werden:
 </a>
 ```
 
-## Weitere Informationen hinzufügen
-
-Wenn wir mehr Informationen zu einem Link hinzufügen wollen, können wir das über das `title`-Attribut machen. Wenn wir nun über den Link 
-darüberhovern, kommt der Text als Tooltip.
-
-```HTML
-<a href="https://www.mozilla.org/en-US/"
-   title="The best place to find more information about Mozilla's mission">the Mozilla homepage</a>
-```
-
 ## Verschiedene Formate
 
 | Format                       | Link                     |

@@ -1,18 +1,25 @@
 # Sidebar
 
-Das `<aside>`-Element repräsentiert einen Teil von einem Dokument, wessen Inhalt nur indirekt mit dem Hauptinhalt verwandt ist. 
+Das `<aside>`-Element repräsentiert einen Teil von einem Dokument, wessen Inhalt nur indirekt mit dem Hauptinhalt verwandt ist. Das kann z.B. ein
+abschnitt mit ähnlichen Blogs sein.
 
 ## Beispiel
 
-```HTML
-<article>
-    <p> The Disney movie <cite>The Little Mermaid</cite> was first released to theatres in 1989.
-    </p>
-    <aside>
-        <p>The movie earned $87 million during its initial release.</p>
-    </aside>
-    <p>More info about the movie…</p>
-</article>
-```
-
-![aside.png](aside.png) { width="350" thumbnail="true" }
+<tabs>
+    <tab title="HTML">
+        <code-block lang="html">
+            <![CDATA[
+                <h1>The aside element</h1>
+                <p>My family and I visited The Epcot center this summer. The weather was nice, 
+                    and Epcot was amazing! I had a great summer together with my family!</p>
+                <aside>
+                    <h4>Epcot Center</h4>
+                    <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions,  international pavilions, award-winning fireworks and seasonal special events.</p>
+                </aside>
+            ]]>
+        </code-block>
+    </tab>
+    <tab title="Resultat">
+        <img src="aside_2.png" width="500" thumbnail="true" />
+    </tab>
+</tabs>

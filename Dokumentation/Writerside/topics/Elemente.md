@@ -1,7 +1,8 @@
 # Elemente
 
 ```HTML
-<p>My cat is very grumpy</p>
+
+<tagname>Content...</tagname>
 ```
 
 Die Anatomie von unserem Element ist:
