@@ -1,0 +1,3 @@
+# Favicon
+
+Start typing here...
