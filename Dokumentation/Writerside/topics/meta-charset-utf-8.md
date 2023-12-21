@@ -13,3 +13,5 @@ Das `charset` Attribut definiert den Zeichensatz für das Dokument.
     </head>
 </html>
 ```
+
+Mehr zum [`<meta>` und `<head>`](Metadata.md) gibt es im nächsten Kapitel.

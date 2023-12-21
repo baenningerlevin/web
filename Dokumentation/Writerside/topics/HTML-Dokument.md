@@ -1,4 +1,4 @@
-# HTML Dokument
+# HTML Boilerplate
 
 Individuelle Elemente sind nicht wirklich nützlich, wenn sie alleine sind. Deshalb muss man sie kombinieren, um eine ganze HTML-Seite zu formen:
 
@@ -14,5 +14,3 @@ Individuelle Elemente sind nicht wirklich nützlich, wenn sie alleine sind. Desh
   </body>
 </html>
 ```
-
-Wir haben das [`<!DOCTYPE html>`]()-Element

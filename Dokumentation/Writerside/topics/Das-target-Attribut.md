@@ -1,4 +1,4 @@
-# Das Attribut target
+# Attribut - target
 
 Standardmässig wird die verlinkte Seite im aktuellen Browserfenster geöffnet. Um das zu ändern, gibt es das `target`-Attribut.
 

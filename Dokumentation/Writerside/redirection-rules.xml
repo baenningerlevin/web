@@ -14,4 +14,8 @@
         <description>Created after removal of "Vektorgrafiken" from Webentwicklung</description>
         <accepts>Vektorgrafiken.html</accepts>
     </rule>
+    <rule id="251a18a3">
+        <description><![CDATA[Created after removal of "<Tabellen-Grundlagen.md>" from Webentwicklung]]></description>
+        <accepts>Tabellen-Grundlagen.html</accepts>
+    </rule>
 </rules>
