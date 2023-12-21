@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="18d33b80">
+        <description>Created after removal of "Bilder - Responsive" from Webentwicklung</description>
+        <accepts>Responsive-Bilder.html</accepts>
+    </rule>
+    <rule id="25046484">
+        <description>Created after removal of "Vektorgrafiken" from Webentwicklung</description>
+        <accepts>Vektorgrafiken.html</accepts>
+    </rule>
+</rules>

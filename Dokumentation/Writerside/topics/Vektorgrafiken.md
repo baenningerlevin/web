@@ -1,3 +1,0 @@
-# Vektorgrafiken
-
-Start typing here...

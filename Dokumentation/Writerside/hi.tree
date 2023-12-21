@@ -56,11 +56,11 @@
         </toc-element>
         <toc-element topic="Medien.md">
             <toc-element topic="Bilder.md">
-                <toc-element topic="Responsive-Bilder.md"/>
             </toc-element>
-            <toc-element topic="Vektorgrafiken.md"/>
         </toc-element>
-        <toc-element topic="Tabellen.md"/>
+        <toc-element topic="Tabellen.md">
+            <toc-element topic="Tabellen-Grundlagen.md"/>
+        </toc-element>
         <toc-element topic="Forms.md"/>
     </toc-element>
     <toc-element topic="CSS.md"/>

@@ -23,6 +23,6 @@ abgegebener Kommentar, ein interaktives Widget oder Gadget oder jedes andere una
         </code-block>
     </tab>
     <tab title="Resultat">
-        <img src="article_2.png" width="500" thumbnail="true">
+        <img src="article_2.png" width="500" thumbnail="true" />
     </tab>
 </tabs>
