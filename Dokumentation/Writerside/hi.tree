@@ -71,6 +71,25 @@
         </toc-element>
         <toc-element topic="Forms.md"/>
     </toc-element>
-    <toc-element topic="CSS.md"/>
+    <toc-element topic="CSS.md">
+        <toc-element topic="Grundlegendes-CSS.md">
+            <toc-element topic="Syntax.md"/>
+            <toc-element topic="CSS-einbinden.md"/>
+            <toc-element topic="Kommentare-CSS.md"/>
+        </toc-element>
+        <toc-element topic="Selektoren.md">
+            <toc-element topic="Selektoren-Basics.md"/>
+            <toc-element topic="Selektoren-Verknüpfungen.md"/>
+            <toc-element topic="Selektoren-Attribute.md"/>
+            <toc-element topic="Pseudo-Klassen.md"/>
+            <toc-element topic="Pseudo-Elemente.md"/>
+        </toc-element>
+        <toc-element topic="Cascade-Specificity-und-Inheritance.md">
+            <toc-element topic="Cascade.md"/>
+            <toc-element topic="Specificity.md"/>
+            <toc-element topic="Inheritance.md"/>
+        </toc-element>
+        <toc-element topic="Das-Boxmodel.md"/>
+    </toc-element>
     <toc-element topic="JavaScript.md"/>
 </instance-profile>
