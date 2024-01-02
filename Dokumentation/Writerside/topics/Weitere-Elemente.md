@@ -1,3 +1,10 @@
 # Weitere Elemente
 
-Hier werden noch der Zeilenumbruch und die horizontale Linie behandelt.
+<show-structure depth="2" />
+
+## Inhaltsverzeichnis - Weitere Elemente
+
+In diesem Kapitel werden folgende Themen behandelt:
+
+- [Line Break](Line-Break.md)
+- [Horizontal Rules](Horizontal-Rules.md)

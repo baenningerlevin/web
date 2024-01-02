@@ -1,6 +1,8 @@
 # Headings
 
-Übertitel sind ein guter Weg eine gewisse Struktur in eine Webseite zu bringen. Übertitel werden mit den Elementen `<h1>`, `<h2>`, ..., `<h6>` 
+<show-structure depth="2" />
+
+Übertitel sind ein guter Weg eine gewisse Struktur in eine Webseite zu bringen. Übertitel werden mit den Elementen `<h1>`, `<h2>`, ..., `<h6>`
 erstellt.
 
 ```HTML

@@ -1,5 +1,7 @@
 # Article
 
+<show-structure depth="2" />
+
 Das `<article>`-Element schliesst einen Block von verwandten Inhalten ein, die auch ohne den Rest der Seite Sinn machen.
 
 Beispiele hierfür sind: ein Forumsbeitrag, ein Zeitschriften- oder Zeitungsartikel oder ein Blogeintrag, eine Produktkarte, ein von einem Benutzer

@@ -1,5 +1,7 @@
 # Elemente
 
+<show-structure depth="2" />
+
 ```HTML
 
 <tagname>Content...</tagname>
@@ -35,8 +37,8 @@ ein Closing Tag.
 
 ```HTML
 <img
-  src="https://shorturl.at/ehrvO"
-  alt="Firefox icon" />
+        src="https://shorturl.at/ehrvO"
+        alt="Firefox icon"/>
 ```
 
 > Man muss das `/` am Ende des self-closing Tags nicht unbedingt schreiben.

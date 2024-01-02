@@ -1,5 +1,7 @@
 # Videos
 
+<show-structure depth="2" />
+
 Mit dem `<video>`-Element kann man Videos auf seiner Webseite einbauen.
 
 Dafür braucht man noch zwei Attribute:

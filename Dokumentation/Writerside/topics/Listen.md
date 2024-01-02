@@ -1,5 +1,7 @@
 # Listen
 
+<show-structure depth="2" />
+
 Es gibt zwei verschiedene Arten von Listen, einmal **ungeordnete Listen** und **geordnete Listen**.
 
 ## Ungeordnete Listen

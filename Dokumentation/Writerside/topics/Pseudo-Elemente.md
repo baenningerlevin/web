@@ -1,5 +1,7 @@
 # Pseudo-Elemente
 
+<show-structure depth="2" />
+
 Mit Pseudo-Elementen kann man einen bestimmten Teil des ausgewählten Elements stylen.
 
 ## ::after

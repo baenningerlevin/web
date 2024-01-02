@@ -1,5 +1,7 @@
 # Main
 
+<show-structure depth="2" />
+
 Das `<main>`-Element repräsentiert den Hauptinhalt vom `<body>`. Hier sind die Dinge vorhanden, die direkt mit dem Thema des Dokuments
 verwandt sind und einzigartig auf der Webseite sind
 

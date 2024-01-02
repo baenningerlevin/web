@@ -1,5 +1,7 @@
 # Pseudo-Klassen
 
+<show-structure depth="2" />
+
 Pseudo-Klassen werden zu einem Selektor hinzugefügt, um spezielle Status, wie `hover` oder `active` anzuzeigen.
 
 ## :active

@@ -1,12 +1,14 @@
 # Attribute
 
+<show-structure depth="2" />
+
 Elemente können auch Attribute haben. Attribute sehen so aus:
 
 ```HTML
 <p class="editor-note">My cat is very grumpy</p>
 ```
 
-Attribute enthalten zusätzliche Informationen über das Element, welches nicht im Inhalt erscheinen wird. In diesem Beispiel wird das `class` 
+Attribute enthalten zusätzliche Informationen über das Element, welches nicht im Inhalt erscheinen wird. In diesem Beispiel wird das `class`
 Attribut benutzt.
 
 Ein Attribut sollte:
@@ -17,10 +19,10 @@ Ein Attribut sollte:
 
 ## Boolean Attribute
 
-Manchmal sieht man Attribute ohne jeglichen Wert, das ist ein sogenanntes **Boolean Attribut**. 
+Manchmal sieht man Attribute ohne jeglichen Wert, das ist ein sogenanntes **Boolean Attribut**.
 
 ```HTML
-<input type="text" disabled />
+<input type="text" disabled/>
 ```
 
 ## Globale Attribute

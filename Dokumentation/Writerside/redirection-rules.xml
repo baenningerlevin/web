@@ -26,4 +26,16 @@
         <description>Created after removal of "Cascade Layers" from Webentwicklung</description>
         <accepts>Cascade-Layers.html</accepts>
     </rule>
+    <rule id="11f93e96">
+        <description>Created after removal of "Sonstiges" from Webentwicklung</description>
+        <accepts>Sonstiges.html</accepts>
+    </rule>
+    <rule id="7b02c04">
+        <description>Created after removal of "Frontend und Backend" from Webentwicklung</description>
+        <accepts>Frontend-und-Backend.html</accepts>
+    </rule>
+    <rule id="3b53b4e2">
+        <description>Created after removal of "Grundlegendes" from Webentwicklung</description>
+        <accepts>Grundlegendes.html</accepts>
+    </rule>
 </rules>

@@ -1,5 +1,7 @@
 # Hoch- und tiefstellen
 
+<show-structure depth="2" />
+
 Ab und zu muss man, bspw. für Formeln, Text hoch-, bzw. tiefstellen. Das geht mit den beiden Elementen `<sup>` und `<sub>`.
 
 ```HTML

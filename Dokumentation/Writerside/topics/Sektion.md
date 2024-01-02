@@ -1,5 +1,7 @@
 # Section
 
+<show-structure depth="2" />
+
 Das `<section>`-Element repräsentiert eine Sektion in einem Dokument, welche keine weitere spezifische semantische Elemente mehr hat, die es
 repräsentieren.
 

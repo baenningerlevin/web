@@ -1,6 +1,8 @@
 # &lt;meta charset=&quot;utf-8&quot;&gt;
 
-Dieses Element beinhaltet Metadaten, die nicht mit anderen HTML **Meta-Bezogenen** Elementen, wie `<base>`, `<link>`, `<script>`, `<style>` oder 
+<show-structure depth="2" />
+
+Dieses Element beinhaltet Metadaten, die nicht mit anderen HTML **Meta-Bezogenen** Elementen, wie `<base>`, `<link>`, `<script>`, `<style>` oder
 `<title>`.
 
 Das `charset` Attribut definiert den Zeichensatz für das Dokument.

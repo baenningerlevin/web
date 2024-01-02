@@ -1,5 +1,7 @@
 # Sidebar
 
+<show-structure depth="2" />
+
 Das `<aside>`-Element repräsentiert einen Teil von einem Dokument, wessen Inhalt nur indirekt mit dem Hauptinhalt verwandt ist. Das kann z.B. ein
 abschnitt mit ähnlichen Blogs sein.
 

@@ -1,3 +1,3 @@
 # Das Boxmodel
 
-Start typing here...
+<show-structure depth="2" />

@@ -1,5 +1,7 @@
 # Zitate
 
+<show-structure depth="2" />
+
 ## Blockquote
 
 Wenn man etwas von woanders Zitiert, sollte man dies irgendwie kennzeichnen. In HTML kann man das mit `<blockquote>` machen. Darüber hinaus kann

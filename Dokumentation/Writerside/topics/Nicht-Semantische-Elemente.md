@@ -1,9 +1,13 @@
 # Nicht-Semantische Elemente
 
+<show-structure depth="2" />
+
 Ab und zu wird es Situationen geben, wo sich kein semantisches Element anbietet. Wenn man jetzt trotzdem ein paar Elemente gruppieren möchte, geht das
-über **nicht-semantische** Elemente.
+mit **nicht-semantische** Elemente.
 
-Dafür stellt uns HTML zwei Elemente zur Verfügung:
+## Inhaltsverzeichnis - Nicht-Semantische Elemente
 
-- `<span>`
-- `<div>`
+In diesem Kapitel werden folgende Themen behandelt:
+
+- [`<span>`](Span.md)
+- [`<div>`](Division.md)

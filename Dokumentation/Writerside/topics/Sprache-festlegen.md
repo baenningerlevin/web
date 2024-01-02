@@ -1,5 +1,7 @@
 # Sprache festlegen
 
+<show-structure depth="2" />
+
 Mit dem Attribut `lang` kann man die Sprache vom Dokument (`html`-Element) oder sonstigen Elementen festlegen.
 
 ```HTML

@@ -1,6 +1,8 @@
 # Cascade
 
-Die Kaskade ist ein sehr wichtiger Bestandteil von CSS. Simpel gesagt heisst es, dass der Ursprung, die Schicht und die Reihenfolge eine Rolle bei 
+<show-structure depth="2" />
+
+Die Kaskade ist ein sehr wichtiger Bestandteil von CSS. Simpel gesagt heisst es, dass der Ursprung, die Schicht und die Reihenfolge eine Rolle bei
 Konflikten spielt.
 
 Wenn zwei Regeln von derselben Schicht sind, dann ist die Reihenfolge ausschlaggebend, welche Regel nun angewendet wird.

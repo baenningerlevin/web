@@ -1,5 +1,7 @@
 # Bilder
 
+<show-structure depth="2" />
+
 Mit dem `<img>`-Element können wir auf unsere Webseite ein Bild einfügen. Dafür braucht es mindestens zwei Attribute:
 
 - `src` - URL, wo das Bild ist

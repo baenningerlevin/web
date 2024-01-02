@@ -1,5 +1,7 @@
 # Header
 
+<show-structure depth="2" />
+
 Das `<header>`-Element repräsentiert einleitende Inhalte, in der Regel eine Gruppe von Einführungs- oder Navigationshilfen. Er kann einige
 Überschriftenelemente, aber auch ein Logo, ein Suchformular, einen Autorennamen und andere Elemente enthalten.
 

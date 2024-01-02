@@ -3,11 +3,9 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="hi" name="Webentwicklung"
-                  start-page="Grundlegendes.md">
+                  start-page="Ueberblick.topic">
 
-    <toc-element topic="Grundlegendes.md">
-        <toc-element topic="Frontend-und-Backend.md"/>
-    </toc-element>
+    <toc-element topic="Ueberblick.topic"/>
     <toc-element topic="HTML.md">
         <toc-element topic="HTML-Syntax.md">
             <toc-element topic="Elemente.md"/>
@@ -91,5 +89,71 @@
         </toc-element>
         <toc-element topic="Das-Boxmodel.md"/>
     </toc-element>
-    <toc-element topic="JavaScript.md"/>
+    <toc-element topic="JavaScript.md">
+        <toc-element topic="Grundlagen.md">
+            <toc-element toc-title="Basics">
+                <toc-element topic="Eine-JavaScript-Datei-verlinken.md"/>
+                <toc-element topic="Variablen-und-Werte.md"/>
+                <toc-element topic="Datentypen.md"/>
+                <toc-element topic="let-const-und-var.md"/>
+                <toc-element topic="Operatoren.md">
+                    <toc-element topic="Reihenfolge-der-Operatoren.md"/>
+                </toc-element>
+                <toc-element topic="Strings.md"/>
+            </toc-element>
+            <toc-element toc-title="Verzweigungen">
+                <toc-element topic="if-else-Anweisungen.md"/>
+                <toc-element topic="switch-Anweisung.md"/>
+                <toc-element topic="Boolean-Logik.md"/>
+                <toc-element topic="Der-Conditional-Operator.md"/>
+            </toc-element>
+            <toc-element topic="Funktionen.md">
+                <toc-element topic="Funktionsdeklarationen-vs-ausdrücke.md"/>
+                <toc-element topic="Arrow-Funktionen.md"/>
+            </toc-element>
+            <toc-element topic="Arrays.md">
+                <toc-element topic="Auf-Daten-zugreifen-und-sie-manipulieren.md"/>
+                <toc-element topic="Array-Methoden.md"/>
+            </toc-element>
+            <toc-element topic="Objekte.md">
+                <toc-element topic="Objekte-Datenzugriff-und-modifikation.md"/>
+                <toc-element topic="Objekte-Methoden.md"/>
+            </toc-element>
+            <toc-element toc-title="Loops">
+                <toc-element topic="for-Loops.md">
+                    <toc-element topic="Loops-Arrays.md"/>
+                </toc-element>
+                <toc-element topic="Loops-while-Schleife.md"/>
+                <toc-element topic="break-und-continue.md"/>
+            </toc-element>
+            <toc-element toc-title="Sonstiges">
+
+                <toc-element topic="Typkonvertierung-und-zwang.md"/>
+                <toc-element topic="Truthy-und-Falsy-Werte.md"/>
+                <toc-element topic="vs.md"/>
+                <toc-element topic="Stikter-Modus.md"/>
+            </toc-element>
+        </toc-element>
+        <toc-element topic="DOM.md">
+            <toc-element topic="Auswahl-und-Manipulation.md">
+                <toc-element topic="querySelector.md"/>
+                <toc-element topic="getElementByID-getElementByClassName.md"/>
+                <toc-element topic="CSS-Styles-manipulieren.md"/>
+                <toc-element topic="Mit-Klassen-arbeiten.md"/>
+            </toc-element>
+            <toc-element topic="Events.md">
+                <toc-element topic="Click-Events.md"/>
+                <toc-element topic="Keypress-Event.md"/>
+            </toc-element>
+        </toc-element>
+        <toc-element topic="JavaScript-Behind-The-Scenes.md">
+            <toc-element topic="JavaScript-Engine-und-Runtime.md"/>
+            <toc-element topic="Execution-Contexts-und-der-Call-Stack.md"/>
+            <toc-element topic="Scope-und-die-Scope-Chain.md"/>
+            <toc-element topic="Hoistung-und-die-TDZ.md"/>
+            <toc-element topic="Das-this-Keyword.md"/>
+            <toc-element topic="Regular-Functions-vs-Arrow-Functions.md"/>
+            <toc-element topic="Primitve-vs-Objekte.md"/>
+        </toc-element>
+    </toc-element>
 </instance-profile>

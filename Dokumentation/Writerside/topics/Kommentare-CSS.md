@@ -1,6 +1,8 @@
 # Kommentare
 
-Kommentare werden mit `/*` und `*/` erstellt. 
+<show-structure depth="2" />
+
+Kommentare werden mit `/*` und `*/` erstellt.
 
 ```CSS
 @media (min-width: 70em) {

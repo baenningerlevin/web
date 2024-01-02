@@ -1,5 +1,7 @@
 # Footer
 
+<show-structure depth="2" />
+
 Das `<footer>`-Element repräsentiert eine Fusszeile. Normalerweise enthält es Informationen über den Autor, Copyright oder Links zu sozialen Medien.
 
 ## Beispiel

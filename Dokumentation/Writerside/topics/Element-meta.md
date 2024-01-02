@@ -1,13 +1,15 @@
 # Element - &lt;meta&gt;
 
-Das `<meta>`-Element ist der offizielle Weg Metadaten zu unserer Webseite hinzuzufügen. Dafür stellt uns das Tag einige Attribute zur Verfügung, 
+<show-structure depth="2" />
+
+Das `<meta>`-Element ist der offizielle Weg Metadaten zu unserer Webseite hinzuzufügen. Dafür stellt uns das Tag einige Attribute zur Verfügung,
 darunter:
 
 - `charset` - Beschreibt den Zeichensatz bzw. die Verschlüsselung davon
 - `name` - Spezifiziert den Typen des **Meta-Elements**
 - `content` - Spezifiziert den eigentlichen **Meta-Inhalt**
 
-Letztere kommen immer in einem Paar vor. 
+Letztere kommen immer in einem Paar vor.
 
 ## Beispiel
 

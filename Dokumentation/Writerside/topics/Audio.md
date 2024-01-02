@@ -1,5 +1,7 @@
 # Audio
 
+<show-structure depth="2" />
+
 Das `<audio>`-Element wird dafür benutzt, Audiodateien in seine Webseite einzubinden.
 
 Der Aufbau ist derselbe, wie beim `<video>`-Element, nur dass es die Attribute `poster`, `height` und `width` nicht gibt.

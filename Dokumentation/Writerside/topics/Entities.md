@@ -1,5 +1,7 @@
 # Entities
 
+<show-structure depth="2" />
+
 In HTML sind die Charaktere `<`, `>`, `"`, `'`, und `&` Spezialcharaktere. Man kann sie nicht einfach in Text benutzen.
 
 Deshalb gibt es sogenannte Entities:

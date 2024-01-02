@@ -1,5 +1,7 @@
 # Abbreveations
 
+<show-structure depth="2" />
+
 Das `<abbr>`-Element wird benutzt um Abkürzungen zu erklären.
 
 ```HTML

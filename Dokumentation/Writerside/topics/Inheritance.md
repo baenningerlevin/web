@@ -1,6 +1,8 @@
 # Inheritance
 
-Unter **Inheritance** versteht man das Erben von Properties und Werten. Wenn man bspw. das Property `color` einem Parent gibt, dann erben alle 
+<show-structure depth="2" />
+
+Unter **Inheritance** versteht man das Erben von Properties und Werten. Wenn man bspw. das Property `color` einem Parent gibt, dann erben alle
 Kinder diese Eigenschaft.
 
 ```CSS

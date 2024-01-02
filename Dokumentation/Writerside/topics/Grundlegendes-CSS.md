@@ -1,3 +1,11 @@
-# Grundlegendes
+# Grundlagen
 
-In den folgenden Unterkapiteln behandeln wir die grundlegende Syntax und andere wichtige Ding von CSS.
+<show-structure depth="2" />
+
+## Inhaltsverzeichnis - Grundlagen
+
+In diesem Kapitel werden folgende Themen behandelt:
+
+- [Syntax](Syntax.md)
+- [CSS einbinden](CSS-einbinden.md)
+- [Kommentare](Kommentare.md)

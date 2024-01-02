@@ -1,5 +1,7 @@
 # Selektoren - Basics
 
+<show-structure depth="2" />
+
 ## Universeller Selektor
 
 Mit dem `*` können wir alles auswählen:
@@ -36,7 +38,7 @@ Dieselbe ID sollte man nur einmal in einem HTML-Dokument vergeben.
 
 ## Class Selektor
 
-Ähnlich wie eine ID, nur dass eine Klasse mehreren Elementen vergeben werden kann. 
+Ähnlich wie eine ID, nur dass eine Klasse mehreren Elementen vergeben werden kann.
 
 ```CSS
 .complete {

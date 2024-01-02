@@ -1,6 +1,8 @@
 # &lt;title&gt;
 
-Dieses Element setzt den Titel der Seite, ihn findet man im Browsertab wieder. 
+<show-structure depth="2" />
+
+Dieses Element setzt den Titel der Seite, ihn findet man im Browsertab wieder.
 
 ```HTML
 <!DOCTYPE html>

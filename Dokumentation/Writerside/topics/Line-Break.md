@@ -1,5 +1,7 @@
 # Line Break
 
+<show-structure depth="2" />
+
 Das `<br>`-Element kreiert einen Zeilenumbruch in einem Paragrafen.
 
 ## Beispiel

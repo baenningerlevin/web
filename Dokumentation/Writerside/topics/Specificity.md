@@ -1,9 +1,11 @@
 # Specificity
 
-Specificity ist der Algorithmus, welcher der Browser benutzt, um zu entscheiden, welche Regel angewendet werden soll. 
+<show-structure depth="2" />
 
-Wenn es mehrere Styleblöcke 
-gibt, die verschiedene Selektoren haben, die dieselbe Property mit verschiedenen Werten bestimmen, dann entscheidet Specificity, welcher Wert 
+Specificity ist der Algorithmus, welcher der Browser benutzt, um zu entscheiden, welche Regel angewendet werden soll.
+
+Wenn es mehrere Styleblöcke
+gibt, die verschiedene Selektoren haben, die dieselbe Property mit verschiedenen Werten bestimmen, dann entscheidet Specificity, welcher Wert
 angenommen wird.
 
 Specificity ist also ein Wert, der aussagt, wie spezifisch ein Selektor ist.
@@ -24,7 +26,7 @@ Eine Klasse ist genauer als ein Element Selektor, deshalb wird die Überschrift 
 
 ## Der Algorithmus dahinter
 
-Grundsätzlich kann man sagen: ID > Klasse > Element. 
+Grundsätzlich kann man sagen: ID > Klasse > Element.
 
 Heisst, jegliche ID schlägt jegliche Anzahl Klassen. Jegliche Klasse schlägt jegliche Anzahl Elemente.
 

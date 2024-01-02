@@ -1,8 +1,10 @@
 # Hyperlinks
 
-Hyperlinks sind sehr wichtig, denn sie sind, was das Web ausmacht. Sie erlauben uns Dokumente mit anderen Dokumenten zu verlinken. 
+<show-structure depth="2" />
 
-Hyperlinks können mit dem `<a>`-Element und dem `href`-Attribut erstellt werden. 
+Hyperlinks sind sehr wichtig, denn sie sind, was das Web ausmacht. Sie erlauben uns Dokumente mit anderen Dokumenten zu verlinken.
+
+Hyperlinks können mit dem `<a>`-Element und dem `href`-Attribut erstellt werden.
 
 ```HTML
 <a href="https://www.mozilla.org/en-US/">the Mozilla homepage</a>

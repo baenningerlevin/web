@@ -1,5 +1,7 @@
 # Navigation
 
+<show-structure depth="2" />
+
 Das `<nav>`-Element repräsentiert eine Sektion einer Webseite, welche die Aufgabe hat Links zu der aktuellen Seite oder anderen Seiten zu zeigen.
 
 ## Beispiel

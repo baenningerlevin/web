@@ -1,5 +1,7 @@
 # CSS einbinden
 
+<show-structure depth="2" />
+
 Das Erste, was wir tun müssen, ist es die CSS-Datei in unserer HTML-Datei zu verlinken. Dafür gibt es verschiedene Wege:
 
 ## Inline-Styles

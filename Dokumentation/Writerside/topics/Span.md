@@ -1,4 +1,6 @@
-# Span
+# <span>
+
+<show-structure depth="2" />
 
 Das `<span>`-Element ist ein inline Container für phrasing Content. Standardmässig repräsentiert es gar nichts.
 

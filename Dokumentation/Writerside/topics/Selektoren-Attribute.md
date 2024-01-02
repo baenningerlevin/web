@@ -1,5 +1,7 @@
 # Selektoren - Attribute
 
+<show-structure depth="2" />
+
 Wir können auch bestimmte Attribute auswählen:
 
 ```CSS

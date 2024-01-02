@@ -1,5 +1,7 @@
 # Horizontal Rules
 
+<show-structure depth="2" />
+
 Das `<hr>`-Element kreiert eine horizontale Linie in einem Dokument, welches eine Themenwechsel im Text bezeichnet.
 
 ## Beispiel

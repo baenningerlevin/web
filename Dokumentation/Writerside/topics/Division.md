@@ -1,4 +1,6 @@
-# Division
+# <div>
+
+<show-structure depth="2" />
 
 Das `<div>`-Element ist ein Container für Flow-Content. Es hat keinen Effekt auf den Inhalt oder das Layout, bis es mit CSS gestylet wird.
 

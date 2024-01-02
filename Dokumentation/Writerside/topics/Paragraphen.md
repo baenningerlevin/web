@@ -1,5 +1,7 @@
 # Absatz
 
+<show-structure depth="2" />
+
 Absätze bzw. Paragrafen werden mit dem `<p>`-Element erstellt.
 
 ```HTML

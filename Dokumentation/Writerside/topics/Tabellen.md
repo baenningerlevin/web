@@ -1,5 +1,7 @@
 # Tabellen
 
+<show-structure depth="2" />
+
 Tabellen werden in HTML hauptsächlich dafür gebraucht, tabellarische Daten zu strukturieren.
 
 ## Syntax

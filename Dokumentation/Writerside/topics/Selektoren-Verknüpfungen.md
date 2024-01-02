@@ -1,5 +1,7 @@
 # Selektoren - Verknüpfungen
 
+<show-structure depth="2" />
+
 ## Descendant Selector
 
 Wenn man nur bestimmten Elemente auswählen möchte, die in einem bestimmten Element genested sind, benutzt man den Descendant Selector:

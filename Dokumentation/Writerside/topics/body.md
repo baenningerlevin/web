@@ -1,5 +1,7 @@
 # &lt;body&gt;
 
+<show-structure depth="2" />
+
 Dieses Element beinhaltet jeglichen Inhalt, der auf der Seite angezeigt wird, inklusive Text, Bilder, Videos, Spiele, Audiodateien, etc.
 
 ```HTML
