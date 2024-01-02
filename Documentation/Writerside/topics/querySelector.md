@@ -20,9 +20,9 @@ Ein Selektor kann eine Klasse, eine ID, ein Element, ... sein ([Selektoren](Sele
 Um alle Elemente auszuwählen, können wir `querySelectorAll()` verwenden. Es funktioniert genauso wie `querySelector()`, gibt aber alle Elemente
 zurück, die dem Selektor entsprechen.
 
-````Javascript
+```Javascript
 document.querySelectorAll(selectors)
-````
+```
 
 ### Beispiel
 

@@ -1,4 +1,4 @@
-# <span>
+# `<span>`
 
 <show-structure depth="2" />
 
@@ -19,7 +19,7 @@ Ausserdem sollte das `<span>`-Element nur benutzt werden, wenn kein anderes sema
         </code-block>
     </tab>
     <tab title="Resultat">
-        <img src="span.png" width="150" />
+        <img src="span.png" width="150" alt="span"/>
     </tab>
 </tabs>
 
@@ -45,6 +45,6 @@ Ausserdem sollte das `<span>`-Element nur benutzt werden, wenn kein anderes sema
         </code-block>
     </tab>
     <tab title="Resultat">
-        <img src="span_with.png" width="150" />
+        <img src="span_with.png" width="150" alt="span"/>
     </tab>
 </tabs>

@@ -5,11 +5,11 @@
 Schleifen sind ein grundlegender Aspekt jeder Programmiersprache, denn sie ermöglichen es uns, sich wiederholende Aufgaben zu automatisieren. Die
 Syntax sieht wie folgt aus:
 
-````Javascript
+```Javascript
 for (initialization; condition; afterthought) {
   statement
 }
-````
+```
 
 Das mag vielleicht ein bisschen einschüchternd wirken, aber wir werden jeden Schritt aufschlüsseln.
 
@@ -45,10 +45,7 @@ Das mag vielleicht ein bisschen einschüchternd wirken, aber wir werden jeden Sc
             Lifting weights repetition 10 🏋️‍♂️
         </code-block>
     </tab>
-
 </tabs>
-
 
 Wir erstellen die Zählervariable `rep` und initialisieren sie mit dem Wert `1`. Die Schleife wird so lange ausgeführt, wie `rep` nicht größer als zehn
 ist. Nach jeder Iteration wird `rep` um eins größer sein.
-

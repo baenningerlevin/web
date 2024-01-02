@@ -1,4 +1,4 @@
-# <div>
+# `<div>`
 
 <show-structure depth="2" />
 
@@ -23,7 +23,7 @@ Ausserdem sollte das `<div>`-Element nur benutzt werden, wenn kein anderes seman
         </code-block>
     </tab>
     <tab title="Resultat">
-        <img src="div_without.png" thumbnail="true" width="350" />
+        <img src="div_without.png" thumbnail="true" width="350" alt="div"/>
     </tab>
 </tabs>
 
@@ -51,6 +51,6 @@ Ausserdem sollte das `<div>`-Element nur benutzt werden, wenn kein anderes seman
         </code-block>
     </tab>
     <tab title="Resultat">
-        <img src="div_with.png" thumbnail="true" width="350"/>
+        <img src="div_with.png" thumbnail="true" width="350" alt="div" />
     </tab>
 </tabs>
