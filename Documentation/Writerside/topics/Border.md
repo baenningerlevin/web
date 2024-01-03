@@ -12,6 +12,7 @@ Folgende Styling-Properties sind bei Borders verfügbar:
 - `border-width`
 - `border-style`
 - `border-color`
+- `border-radius`
 
 Zudem können wir die Properties für jede Seite definieren:
 

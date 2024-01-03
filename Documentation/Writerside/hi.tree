@@ -105,6 +105,18 @@
             <toc-element topic="Listen-Styling.md"/>
             <toc-element topic="Links.md"/>
         </toc-element>
+        <toc-element topic="Verschiedenes.md">
+            <toc-element topic="Hintergründe.md"/>
+            <toc-element topic="Overflow.md"/>
+            <toc-element topic="Bilder-CSS.md"/>
+            <toc-element topic="Transitions.md"/>
+            <toc-element topic="Transforms.md"/>
+        </toc-element>
+        <toc-element topic="Layout.md">
+            <toc-element topic="Flexbox.md"/>
+            <toc-element topic="Grid.md"/>
+            <toc-element topic="Floats.md"/>
+        </toc-element>
     </toc-element>
     <toc-element topic="JavaScript.md">
         <toc-element topic="Grundlagen.md">

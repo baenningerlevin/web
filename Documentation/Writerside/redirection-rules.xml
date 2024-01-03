@@ -43,4 +43,8 @@
             <![CDATA[Created after removal of "<Fundamentales-Text-und-Schrift-Styling.md>" from Webentwicklung]]></description>
         <accepts>Fundamentales-Text-und-Schrift-Styling.html</accepts>
     </rule>
+    <rule id="3cdd6a22">
+        <description>Created after removal of "Das Position Property" from Webentwicklung</description>
+        <accepts>Das-Postition-Property.html</accepts>
+    </rule>
 </rules>

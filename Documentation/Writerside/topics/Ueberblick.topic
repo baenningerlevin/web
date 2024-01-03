@@ -36,8 +36,8 @@
             <title>CSS</title>
             <a href="Grundlegendes-CSS.md">Grundlagen</a>
             <a href="Das-Boxmodel.md">Das Boxmodel</a>
-            <a href="">Text</a>
-            <a href="">Etwas anderes</a>
+            <a href="Text.md">Textelemente</a>
+            <a href="Layout.md">Layout</a>
         </secondary>
 
         <!--    Optionally add additional cards and links to topics that are not in this section but may be relevant.    -->

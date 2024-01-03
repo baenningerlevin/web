@@ -26,6 +26,11 @@ Root-Elements.
 In den meisten Fällen werden Prozente gleich wie Längen behandelt. Prozente sind immer relative zu irgendeinem anderen Wert, bspw. `font-size`
 ist relative zur `font-size` des Parents oder bei `width` wäre es relativ zur `width` des Parents.
 
+> **Wann benutzen wir welche Einheit?**
+> - Schriftgrössen: `rem`
+> - Paddings und Margin: `em`
+> - Breiten: `em` oder Prozente
+
 ## Nummern
 
 Manche Wertetypen akzeptieren Nummern, ohne eine Einheit. Ein Beispiel für eine solche einheitslose Eigenschaft wäre `opacity`. Diese akzeptiert
