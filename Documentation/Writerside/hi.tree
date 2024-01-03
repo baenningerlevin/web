@@ -113,8 +113,32 @@
             <toc-element topic="Transforms.md"/>
         </toc-element>
         <toc-element topic="Layout.md">
-            <toc-element topic="Flexbox.md"/>
-            <toc-element topic="Grid.md"/>
+            <toc-element topic="Flexbox.md">
+                <toc-element topic="Properties-für-das-Parent.md">
+                    <toc-element topic="Flex-Direction.md"/>
+                    <toc-element topic="Flex-Wrap.md"/>
+                    <toc-element topic="flex-flow.md"/>
+                    <toc-element topic="justify-content.md"/>
+                    <toc-element topic="align-itmes.md"/>
+                    <toc-element topic="align-content.md"/>
+                    <toc-element topic="gap-row-gap-column-gap.md"/>
+                </toc-element>
+                <toc-element topic="Item-Properties.md">
+                    <toc-element topic="oder.md"/>
+                    <toc-element topic="flex-grow.md"/>
+                    <toc-element topic="flex-shrink.md"/>
+                    <toc-element topic="flex-basis.md"/>
+                    <toc-element topic="flex.md"/>
+                    <toc-element topic="align-self.md"/>
+                </toc-element>
+            </toc-element>
+            <toc-element topic="Grid.md">
+                <toc-element topic="Container-Properties.md">
+                </toc-element>
+                <toc-element topic="grid-templat-columns-grid-template-rows.md"/>
+                <toc-element topic="grid-template-areas.md"/>
+                <toc-element topic="Item-Properties-Grid.md"/>
+            </toc-element>
             <toc-element topic="Floats.md"/>
         </toc-element>
     </toc-element>
