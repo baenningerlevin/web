@@ -17,4 +17,4 @@ h1 {
 - In den Klammern haben wir eine oder mehrere **Deklarationen**, welche die Form von **Property** und **Value** Paaren annehmen. Wir spezifizieren
   das Property, hier `color`, vor dem Doppelpunkt und spezifizieren den Value nach ihm, hier `red`.
 
-Jedes Property kann unterschiedliche Werte annehmen, bspw. Farben oder Grössen. 
+Jedes Property kann unterschiedliche Werte annehmen, bspw. Farben oder Grössen.

@@ -73,6 +73,9 @@
         <toc-element topic="Grundlegendes-CSS.md">
             <toc-element topic="Syntax.md"/>
             <toc-element topic="CSS-einbinden.md"/>
+            <toc-element topic="Einheiten.md">
+                <toc-element topic="Farbmodelle.md"/>
+            </toc-element>
             <toc-element topic="Kommentare-CSS.md"/>
         </toc-element>
         <toc-element topic="Selektoren.md">
@@ -87,7 +90,21 @@
             <toc-element topic="Specificity.md"/>
             <toc-element topic="Inheritance.md"/>
         </toc-element>
-        <toc-element topic="Das-Boxmodel.md"/>
+        <toc-element topic="Das-Boxmodel.md">
+            <toc-element topic="Content.md"/>
+            <toc-element topic="Border.md"/>
+            <toc-element topic="Padding.md"/>
+            <toc-element topic="Margin.md"/>
+            <toc-element topic="Fill-Area.md"/>
+            <toc-element topic="Berechnen-der-Höhe-und-Breite.md"/>
+            <toc-element topic="Block-und-Inline-Boxen.md"/>
+        </toc-element>
+        <toc-element topic="Text.md">
+            <toc-element topic="Schrift.md"/>
+            <toc-element topic="Text-Layout.md"/>
+            <toc-element topic="Listen-Styling.md"/>
+            <toc-element topic="Links.md"/>
+        </toc-element>
     </toc-element>
     <toc-element topic="JavaScript.md">
         <toc-element topic="Grundlagen.md">

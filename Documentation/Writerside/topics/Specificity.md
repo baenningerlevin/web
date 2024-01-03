@@ -40,4 +40,9 @@ Zudem gibt es ein gewisses Punktesystem dahinter, folgend sind einige Beispiele:
 
 ## Inline-Styles und Important
 
-Wenn wir Styles inline deklarieren sind diese auf unserer Skala ganze 1000 Punkte wert.  
+Wenn wir Styles inline deklarieren sind diese auf unserer Skala ganze 1000 Punkte wert. Darüber hinaus gibt es noch `!important`, was wir jedoch
+nie oder sehr selten benutzen sollten.
+
+## Übersicht
+
+![specificity.png](specificity.png) { width="500" thumbnail="true"}

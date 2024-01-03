@@ -11,6 +11,7 @@ Wenn zwei Regeln von derselben Schicht sind, dann ist die Reihenfolge ausschlagg
 h1 {
   color: red;
 }
+
 h1 {
   color: blue;
 }

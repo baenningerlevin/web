@@ -16,3 +16,5 @@ span {
 ```
 
 ![inheritance.png](inheritance.png) { width="350" thumbnail="true" }
+
+Jedoch werden nicht alle Properties vererbt; vor allem jene die mit Text zu tun haben.

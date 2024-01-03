@@ -38,4 +38,9 @@
         <description>Created after removal of "Grundlegendes" from Webentwicklung</description>
         <accepts>Grundlegendes.html</accepts>
     </rule>
+    <rule id="4a5ffafa">
+        <description>
+            <![CDATA[Created after removal of "<Fundamentales-Text-und-Schrift-Styling.md>" from Webentwicklung]]></description>
+        <accepts>Fundamentales-Text-und-Schrift-Styling.html</accepts>
+    </rule>
 </rules>
