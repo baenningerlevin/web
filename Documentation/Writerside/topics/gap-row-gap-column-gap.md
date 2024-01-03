@@ -1,4 +1,4 @@
-# gap, row-gap, column-gap
+# gap / row-gap, column-gap
 
 Das `gap`-Property kontrolliert den Abstand zwischen Flex-Elementen.
 

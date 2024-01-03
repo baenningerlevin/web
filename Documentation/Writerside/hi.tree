@@ -70,14 +70,6 @@
         <toc-element topic="Forms.md"/>
     </toc-element>
     <toc-element topic="CSS.md">
-        <toc-element topic="Grundlegendes-CSS.md">
-            <toc-element topic="Syntax.md"/>
-            <toc-element topic="CSS-einbinden.md"/>
-            <toc-element topic="Einheiten.md">
-                <toc-element topic="Farbmodelle.md"/>
-            </toc-element>
-            <toc-element topic="Kommentare-CSS.md"/>
-        </toc-element>
         <toc-element topic="Selektoren.md">
             <toc-element topic="Selektoren-Basics.md"/>
             <toc-element topic="Selektoren-Verknüpfungen.md"/>
@@ -91,6 +83,14 @@
             <toc-element topic="Inheritance.md"/>
         </toc-element>
         <toc-element topic="Das-Boxmodel.md">
+            <toc-element topic="Grundlegendes-CSS.md">
+                <toc-element topic="Syntax.md"/>
+                <toc-element topic="CSS-einbinden.md"/>
+                <toc-element topic="Einheiten.md">
+                    <toc-element topic="Farbmodelle.md"/>
+                </toc-element>
+                <toc-element topic="Kommentare-CSS.md"/>
+            </toc-element>
             <toc-element topic="Content.md"/>
             <toc-element topic="Border.md"/>
             <toc-element topic="Padding.md"/>
@@ -134,10 +134,14 @@
             </toc-element>
             <toc-element topic="Grid.md">
                 <toc-element topic="Container-Properties.md">
+                    <toc-element topic="grid-templat-columns-grid-template-rows.md"/>
+                    <toc-element topic="grid-template-areas.md"/>
+                    <toc-element topic="column-gap-row-gap.md"/>
+                    <toc-element topic="justify-items.md"/>
+                    <toc-element topic="align-items.md"/>
                 </toc-element>
-                <toc-element topic="grid-templat-columns-grid-template-rows.md"/>
-                <toc-element topic="grid-template-areas.md"/>
                 <toc-element topic="Item-Properties-Grid.md"/>
+                <toc-element topic="Spezielle-Einheiten-und-Funktionen.md"/>
             </toc-element>
             <toc-element topic="Floats.md"/>
         </toc-element>

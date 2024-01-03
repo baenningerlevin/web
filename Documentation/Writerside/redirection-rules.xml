@@ -47,4 +47,8 @@
         <description>Created after removal of "Das Position Property" from Webentwicklung</description>
         <accepts>Das-Postition-Property.html</accepts>
     </rule>
+    <rule id="2365ea70">
+        <description>Created after removal of "grid-template" from Webentwicklung</description>
+        <accepts>grid-template.html</accepts>
+    </rule>
 </rules>

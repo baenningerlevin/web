@@ -4,9 +4,9 @@
 
 Das Erste, was wir tun müssen, ist es die CSS-Datei in unserer HTML-Datei zu verlinken. Dafür gibt es verschiedene Wege:
 
-## Inline-Styles
+## Inline-CSS
 
-Inline-Styles werden direkt in einem Element im HTML eingebunden:
+Inline-CSS wird direkt in einem Element im HTML eingebunden:
 
 ```HTML
 <p style="color: red">Ich bin rot!</p>
@@ -14,13 +14,14 @@ Inline-Styles werden direkt in einem Element im HTML eingebunden:
 
 Diese Variante wird sehr selten benützt, da sie sehr umständlich ist.
 
-## Embedded-Styles
+## Internal-CSS
 
 Zudem können wir im `<head>` unserer HTML-Datei das `<style>`-Element hinzufügen:
 
 ```HTML
+
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
     <title>Styles</title>
     <style>
         p {
@@ -30,13 +31,13 @@ Zudem können wir im `<head>` unserer HTML-Datei das `<style>`-Element hinzufüg
     </style>
 </head>
 <body>
-    <p>Hallo, ich bin rot und gross!</p>
+<p>Hallo, ich bin rot und gross!</p>
 </body>
 ```
 
 Auch diese Variante wird nicht besonders häufig gebraucht, vor allem weil man dadurch nicht mehrere HTML-Dateien mit denselben Styles pflegen kann.
 
-## Externe CSS-Datei
+## External-CSS
 
 Das ist die Variante, die man am häufigsten sieht. Man erstellt eine neue CSS-Datei und bindet sie mit dem `<link>`-Element in das HTML ein.
 

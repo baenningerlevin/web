@@ -1,4 +1,4 @@
-# Database Course (Bühler)
+# Web-Development Course (Bühler)
 
 This repository contains all the materials for the internal web-development course at Bühler AG.
 
