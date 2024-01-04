@@ -1,3 +1,0 @@
-# Floats
-
-Start typing here...

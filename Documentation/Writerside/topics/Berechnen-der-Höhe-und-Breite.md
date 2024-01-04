@@ -1,5 +1,7 @@
 # Boxmodell - Höhe und Breite
 
+<show-structure depth="2" />
+
 ## Standard CSS Boxmodel
 
 Im standard Boxmodel werden die Breiten und Höhen wie folgt berechnet:

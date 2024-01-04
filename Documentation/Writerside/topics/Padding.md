@@ -1,5 +1,7 @@
 # Boxmodell - Padding
 
+<show-structure depth="2" />
+
 Padding ist im Grunde genommen ein unsichtbarer Raum, den wir um die Elemente herum schaffen können. Padding ist zwischen dem Content und der Border.
 
 ![padding.png](padding.png) { width="350" thumbnail="true" }

@@ -1,5 +1,7 @@
 # Das display Property
 
+<show-structure depth="2" />
+
 Es gibt viele verschiedene Werte für `display`, wir fokussieren uns auf `block`, `inline` und `inline-block`
 
 ## Block

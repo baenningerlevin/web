@@ -55,4 +55,8 @@
         <description>Created after removal of "grid" from Webentwicklung</description>
         <accepts>grid-shorthand.html</accepts>
     </rule>
+    <rule id="20377d45">
+        <description>Created after removal of "Floats" from Webentwicklung</description>
+        <accepts>Floats.html</accepts>
+    </rule>
 </rules>

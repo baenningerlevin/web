@@ -1,5 +1,7 @@
 # Boxmodell - Border
 
+<show-structure depth="2" />
+
 Als Nächstes können wir eine Border definieren, der um das gesamte Element herumgeht. Es ist eine **Linie**, rund um das Element und es ist immer noch
 **im Element**.
 

@@ -1,5 +1,7 @@
 # Boxmodell - Margin
 
+<show-structure depth="2" />
+
 Die Margin erstellt einen unsichtbaren Raum, rund um das Element. Der Unterschied zwischen Padding und Margin besteht darin, dass die Margin
 ausserhalb von einem Element ist. Es ist zwischen mehreren Elementen.
 

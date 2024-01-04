@@ -70,6 +70,14 @@
         <toc-element topic="Forms.md"/>
     </toc-element>
     <toc-element topic="CSS.md">
+        <toc-element topic="Grundlegendes-CSS.md">
+            <toc-element topic="Syntax.md"/>
+            <toc-element topic="CSS-einbinden.md"/>
+            <toc-element topic="Einheiten.md">
+                <toc-element topic="Farbmodelle.md"/>
+            </toc-element>
+            <toc-element topic="Kommentare-CSS.md"/>
+        </toc-element>
         <toc-element topic="Selektoren.md">
             <toc-element topic="Selektoren-Basics.md"/>
             <toc-element topic="Selektoren-Verknüpfungen.md"/>
@@ -83,14 +91,6 @@
             <toc-element topic="Inheritance.md"/>
         </toc-element>
         <toc-element topic="Das-Boxmodel.md">
-            <toc-element topic="Grundlegendes-CSS.md">
-                <toc-element topic="Syntax.md"/>
-                <toc-element topic="CSS-einbinden.md"/>
-                <toc-element topic="Einheiten.md">
-                    <toc-element topic="Farbmodelle.md"/>
-                </toc-element>
-                <toc-element topic="Kommentare-CSS.md"/>
-            </toc-element>
             <toc-element topic="Content.md"/>
             <toc-element topic="Border.md"/>
             <toc-element topic="Padding.md"/>
@@ -158,7 +158,24 @@
                     <toc-element topic="Sizing-Funktionen.md"/>
                 </toc-element>
             </toc-element>
-            <toc-element topic="Floats.md"/>
+            <toc-element topic="Positioning.md">
+                <toc-element topic="Static-Positioning.md"/>
+                <toc-element topic="Relative-Positioning.md"/>
+                <toc-element topic="Absolute-Positioning.md"/>
+                <toc-element topic="Fixed-Positioning.md"/>
+                <toc-element topic="Sticky-Positioning.md"/>
+            </toc-element>
+        </toc-element>
+        <toc-element topic="Responsive-Design.md">
+            <toc-element topic="Media-Queries.md">
+                <toc-element topic="Media-Query-Basics.md">
+                </toc-element>
+                <toc-element topic="Media-Queries-Logik.md"/>
+                <toc-element topic="Breakpoints-auswählen.md"/>
+            </toc-element>
+            <toc-element topic="Responsive-Layout.md"/>
+            <toc-element topic="Responsive-Bilder.md"/>
+            <toc-element topic="Responsive-Typography.md"/>
         </toc-element>
     </toc-element>
     <toc-element topic="JavaScript.md">
