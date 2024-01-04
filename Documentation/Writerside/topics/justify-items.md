@@ -6,7 +6,7 @@ Mit `justify-items` richten wir Elemente an der Inline-Achse (Zeile) aus. Dieser
 
 - `start` - richtet Elemente am Anfang der Zelle aus
 - `end` - richtet Elemente am Ende der Zelle aus
-- `center` - zentriert das Element in der Zelle
+- `center` - zentriert Elemente in der Zelle
 - `stretch` - füllt die ganze Zellenbreite aus
 
 ````CSS

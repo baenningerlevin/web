@@ -139,9 +139,24 @@
                     <toc-element topic="column-gap-row-gap.md"/>
                     <toc-element topic="justify-items.md"/>
                     <toc-element topic="align-items.md"/>
+                    <toc-element topic="place-items.md"/>
+                    <toc-element topic="justify-content-grid.md"/>
+                    <toc-element topic="align-content-grid.md"/>
+                    <toc-element topic="place-content.md"/>
                 </toc-element>
-                <toc-element topic="Item-Properties-Grid.md"/>
-                <toc-element topic="Spezielle-Einheiten-und-Funktionen.md"/>
+                <toc-element topic="Item-Properties-Grid.md">
+                    <toc-element topic="grid-column-start-grid-column-end-grid-row-start-grid-row-end.md"/>
+                    <toc-element topic="grid-column-grid-row.md">
+                    </toc-element>
+                    <toc-element topic="grid-area.md"/>
+                    <toc-element topic="justify-self.md"/>
+                    <toc-element topic="align-self-grid.md"/>
+                </toc-element>
+                <toc-element topic="Spezielle-Einheiten-und-Funktionen.md">
+                    <toc-element topic="fr-Einheit.md"/>
+                    <toc-element topic="Sizing-Keywords.md"/>
+                    <toc-element topic="Sizing-Funktionen.md"/>
+                </toc-element>
             </toc-element>
             <toc-element topic="Floats.md"/>
         </toc-element>

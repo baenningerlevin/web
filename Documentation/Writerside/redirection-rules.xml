@@ -51,4 +51,8 @@
         <description>Created after removal of "grid-template" from Webentwicklung</description>
         <accepts>grid-template.html</accepts>
     </rule>
+    <rule id="418b7b5a">
+        <description>Created after removal of "grid" from Webentwicklung</description>
+        <accepts>grid-shorthand.html</accepts>
+    </rule>
 </rules>
