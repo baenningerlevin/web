@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--========== BOX ICONS ==========-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>CV - Levin Bänninger</title>
+  </head>
+  <body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav__logo">Bänninger</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link"> <i class="bx bx-home nav__icon"></i>Home </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#profile" class="nav__link"> <i class="bx bx-user nav__icon"></i>Profile </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#education" class="nav__link">
+                <i class="bx bx-book nav__icon"></i>Education
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="bx bx-receipt nav__icon"></i>Skills
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#experience" class="nav__link">
+                <i class="bx bx-briefcase-alt nav__icon"></i>Experience
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#certificates" class="nav__link">
+                <i class="bx bx-award nav__icon"></i>Certificates
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#references" class="nav__link">
+                <i class="bx bx-link-external nav__icon"></i>References
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main bd-container">
+      <!-- All elements within this div, is generated in PDF -->
+      <div class="resume" id="area-cv">
+        <div class="resume__left">
+          <!--========== HOME ==========-->
+          <section class="home" id="home">
+            <div class="home__container bd-grid">
+              <div class="home__data bd-grid">
+                <img src="assets/img/perfil.jpg" alt="" class="home__img" />
+
+                <h1 class="home__title">BÄNNINGER <b>LEVIN</b></h1>
+                <h3 class="home__profession">Junior Developer</h3>
+
+                <div>
+                  <a download="" href="assets/pdf/ResumeCv.pdf" class="home__button-movil"
+                    >Download</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="home__address bd-grid">
+              <span class="home__information">
+                <i class="bx bx-map"></i> Büfelderstrasse 25B, 8370 Sirnach
+              </span>
+              <span class="home__information">
+                <i class="bx bx-envelope"></i> l.baenninger@icloud.com
+              </span>
+              <span class="home__information"> <i class="bx bx-phone"></i> +41 78 700 16 40 </span>
+            </div>
+            <!-- Theme change button -->
+
+            <!-- Button to generate and download the pdf. Available for desktop. -->
+          </section>
+
+          <!--========== SOCIAL ==========-->
+          <section class="social section">
+            <h2 class="section-title">Social</h2>
+
+            <div class="social__container bd-grid">
+              <a
+                href="https://linkedin.com/in/levinbaenninger"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-linkedin-square social__icon"></i> @levinbaenninger
+              </a>
+              <a href="https://github.com/levinbaenninger" target="_blank" class="social__link">
+                <i class="bx bxl-github social__icon"></i> levinbaenninger
+              </a>
+            </div>
+          </section>
+
+          <!--========== PROFILE ==========-->
+          <section class="profile section" id="profile">
+            <h2 class="section-title">Profile</h2>
+
+            <p class="profile__description">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus fuga provident quis
+              quidem modi quam ab excepturi, accusantium nobis quod adipisci illo velit assumenda
+              tenetur vero at quasi reprehenderit officia?
+            </p>
+          </section>
+
+          <!--========== EDUCATION ==========-->
+          <section class="education section" id="education"></section>
+
+          <!--========== SKILLS  ==========-->
+          <section class="skills section" id="skills"></section>
+        </div>
+
+        <div class="resume__right">
+          <!--========== EXPERIENCE ==========-->
+          <section class="experience section" id="experience"></section>
+
+          <!--========== CERTIFICATES ==========-->
+          <section class="certificate section" id="certificates"></section>
+
+          <!--========== REFERENCES ==========-->
+          <section class="references section" id="references"></section>
+
+          <!--========== LANGUAGES ==========-->
+          <section class="languages section"></section>
+
+          <!--========== INTERESTS ==========-->
+          <section class="interests section"></section>
+        </div>
+      </div>
+    </main>
+
+    <!--========== SCROLL TOP ==========-->
+
+    <!--========== HTML2PDF ==========-->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="script.js"></script>
+  </body>
+</html>
