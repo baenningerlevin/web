@@ -1,5 +1,5 @@
 // 4. Objects
-'use strict';
+
 // 4.3 Object Methods
 
 const levin = {
@@ -18,15 +18,15 @@ const levin = {
     return 2023 - this.birthYear;
   }, */
 
-  calcAge: function () {
+  calcAge() {
     this.age = 2023 - this.birthYear;
     return this.age;
   },
 
-  getSummary: function () {
-    return `${this.firstName} is a ${this.calcAge()}-year old ${
-      this.job
-    }, and he has ${this.hasDriversLicense ? 'a' : 'no'} driver's license`;
+  getSummary() {
+    return `${this.firstName} is a ${this.calcAge()}-year old ${this.job}, and he has ${
+      this.hasDriversLicense ? 'a' : 'no'
+    } driver's license`;
   },
 };
 

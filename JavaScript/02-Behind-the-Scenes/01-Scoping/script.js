@@ -1,5 +1,4 @@
 // 1. Scoping
-'use strict';
 
 //* Global Scope
 const firstName = 'Jonas';
@@ -16,7 +15,7 @@ function calcAge(birthYear) {
     //* Block Scope
     if (birthYear >= 1981 && birthYear <= 1996) {
       var millenial = true;
-      //? Creating new variable with same name as outer scope's variable
+      // ? Creating new variable with same name as outer scope's variable
       const firstName = 'Steven';
 
       const str = `Oh, and you're a millenial, ${firstName}`;
@@ -27,8 +26,8 @@ function calcAge(birthYear) {
         return a + b;
       }
 
-      //? Reassigning outer scope's variable
-      output = 'New output!'
+      // ? Reassigning outer scope's variable
+      output = 'New output!';
     }
 
     console.log(millenial);

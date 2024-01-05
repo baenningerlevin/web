@@ -1,12 +1,11 @@
 // 4. Regular vs. Arrow Functions
-'use strict';
 
 const levin = {
   firstName: 'Levin',
   year: 2017,
 
   // Regular function
-  calcAge: function () {
+  calcAge() {
     console.log(2037 - this.year); // 20
 
     // Solution 1

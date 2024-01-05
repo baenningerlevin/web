@@ -1,5 +1,4 @@
 // 5. Loops
-'use strict';
 
 // 5.3 Looping Backwards and Loops in Loops
 

@@ -1,5 +1,4 @@
 // 4. Arrow Functions
-'use strict';
 
 // Without parameters
 const menu = () => {

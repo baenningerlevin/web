@@ -5,9 +5,9 @@ const restaurant = {
   starterMenu: ['Focaccia', 'Bruschetta', 'Garlic Bread', 'Caprese Salad'],
   mainMenu: ['Pizza', 'Pasta', 'Risotto'],
 
-  order: function (starterIndex, mainIndex) {
+  order(starterIndex, mainIndex) {
     return [this.starterMenu[starterIndex], this.mainMenu[mainIndex]];
-  }
+  },
 };
 
 //* Normal Destructuring
@@ -25,17 +25,17 @@ console.log(arr); // [1, 2, 3]
 const [first, second] = restaurant.categories;
 console.log(first, second); // Italian Pizzeria
 
-//? Skipping elements
+// ? Skipping elements
 let [main, , secondary] = restaurant.categories;
 console.log(main, secondary); // Italian Vegetarian
 
-//? Switching variables (without destructuring)
+// ? Switching variables (without destructuring)
 const temp = main;
 main = secondary;
 secondary = temp;
 console.log(main, secondary); // Vegetarian Italian
 
-//? Switching variables (with destructuring)
+// ? Switching variables (with destructuring)
 [main, secondary] = [secondary, main];
 console.log(main, secondary); // Italian Vegetarian
 
@@ -49,7 +49,7 @@ const [i, , j] = nested;
 console.log(i, j); // 2 [5, 6]
 
 const [k, , [l, m]] = nested;
-console.log(k, l, m);   // 2 5 6
+console.log(k, l, m); // 2 5 6
 
 //* Default values
 const [p = 1, q = 1, r = 1] = [8, 9];
