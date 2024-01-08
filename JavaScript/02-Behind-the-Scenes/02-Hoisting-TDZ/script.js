@@ -1,5 +1,4 @@
 // 2. Hoisting and TDZ in Practice
-'use strict';
 
 //* Variables
 console.log(me); // undefined
@@ -7,7 +6,7 @@ console.log(me); // undefined
 //! console.log(year); // ReferenceError: Cannot access 'year' before initialization
 
 var me = 'Jonas';
-let job = 'teacher';
+const job = 'teacher';
 const year = 1991;
 
 //* Functions
@@ -21,6 +20,6 @@ function addDecl(a, b) {
 
 const addExpr = function (a, b) {
   return a + b;
-}
+};
 
 const addArrow = (a, b) => a + b;

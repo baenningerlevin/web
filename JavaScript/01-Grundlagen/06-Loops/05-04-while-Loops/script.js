@@ -1,5 +1,4 @@
 // 5. Loops
-'use strict';
 
 // 5.4 The while Loop
 let rep = 1;

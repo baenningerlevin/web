@@ -1,5 +1,4 @@
 // 2. Functions
-'use strict';
 
 //* Function without parameters and return value
 // Declaring a function
@@ -19,7 +18,7 @@ menu(); /*  Startup PC1 ............ 1
 //* Function with parameters and without return value
 // Declaring a function
 function logAddition(a, b) {
-  let sum = a + b;
+  const sum = a + b;
   console.log(sum);
 }
 
@@ -34,7 +33,7 @@ function randNum() {
 }
 
 // Calling / running / invoking function
-let num = randNum();
+const num = randNum();
 console.log(num); // Random number between 1 and 10
 
 //* Function with paramaters and with return value
@@ -44,5 +43,5 @@ function calcSum(a, b) {
 }
 
 // Calling / running / invoking function
-let sum = calcSum(2, 3);
+const sum = calcSum(2, 3);
 console.log(sum); // 5

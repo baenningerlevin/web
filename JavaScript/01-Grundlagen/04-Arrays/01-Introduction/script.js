@@ -1,5 +1,4 @@
 // 3. Arrays
-'use strict';
 
 const friends = ['Michael', 'Steven', 'Peter'];
 console.log(friends); // ["Michael", "Steven", "Peter"]
@@ -19,12 +18,6 @@ console.log(friends); // ["Michael", "Steven", "Jay"]
 
 //! friends = ['Bob', 'Alice']; // TypeError: Assignment to constant variable.
 
-const levin = [
-  'Levin',
-  'Bänninger',
-  2023 - 2007,
-  'computer scientist',
-  friends,
-];
+const levin = ['Levin', 'Bänninger', 2023 - 2007, 'computer scientist', friends];
 
 console.log(levin); // ["Levin", "Bänninger", 16, "computer scientist", Array(3)]

@@ -1,5 +1,4 @@
 // 3. The this keyword
-'use strict';
 
 //* Global this keyword
 console.log(this); // window object
@@ -13,7 +12,7 @@ const calcAge = function (birthYear) {
 calcAge(1991);
 
 //* Arrow function
-const calcAgeArrow = birthYear => {
+const calcAgeArrow = (birthYear) => {
   console.log(2037 - birthYear);
   console.log(this); // window object
 };
@@ -23,7 +22,7 @@ calcAgeArrow(1991);
 //* Method - regular function
 const jonas = {
   year: 1991,
-  calcAge: function () {
+  calcAge() {
     console.log(this); // jonas object
     console.log(2037 - this.year);
   },
@@ -38,7 +37,6 @@ const matilda = {
 // Method borrowing
 matilda.calcAge = jonas.calcAge;
 matilda.calcAge(); // this keyword is only assigned a value when the object calls the method
-
 
 //* Method - arrow function
 const levin = {

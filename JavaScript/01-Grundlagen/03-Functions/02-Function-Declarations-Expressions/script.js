@@ -1,5 +1,4 @@
 // 3. Function Declarations vs. Expressions
-'use strict';
 
 // Function declaration
 function calcAge1(birthYear) {

@@ -1,5 +1,4 @@
 // 5. Loops
-'use strict';
 
 //* 5.2 Looping Arrays, Breaking and Continuing
 const levin = ['Levin', 'Bänninger', 2023 - 2007, 'student', ['Michael', 'Peter', 'Steven']];
