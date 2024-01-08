@@ -77,6 +77,15 @@
                     <a href="https://www.udemy.com/course/the-complete-javascript-course/"
                        summary="JS Tutorial from Udemy">Udemy - JavaScript</a>
                 </group>
+                <group>
+                    <title>Useful Resources</title>
+                    <a href="https://www.instagram.com/frontendcharm/" summary="Cheatsheets all about Web Development">FrontendCharm
+                        - Cheatsheets</a>
+                    <a href="https://uiverse.io/" summary="A collection of different UI Components">UIverse -
+                        Components</a>
+                    <a href="https://quickref.me/" summary="Here you find cheatsheets and references for everything">QuickRef.ME
+                        - Cheatsheets and References</a>
+                </group>
             </links>
         </misc>
     </section-starting-page>
