@@ -247,6 +247,9 @@
         <toc-element topic="Datenstrukturen-Moderne-Operatoren-und-Strings.md">
             <toc-element topic="Moderne-Operatoren.md">
                 <toc-element topic="Destructuring-Arrays.md"/>
+                <toc-element topic="Destructuring-Objects.md"/>
+                <toc-element topic="Spread.md"/>
+                <toc-element topic="Rest-Pattern-und-Parameter.md"/>
             </toc-element>
         </toc-element>
     </toc-element>
