@@ -10,7 +10,7 @@ const restaurant = {
     sat: { open: 0, close: 24 },
   },
 
-  orderDelivery({ starterIndex = 1, mainIndex = 0, time = '20:00', address }) {
+  orderDelivery: function ({ starterIndex = 1, mainIndex = 0, time = '20:00', address }) {
     console.log(
       `Order receiver! ${this.starterMenu[starterIndex]} and ${this.mainMenu[mainIndex]} will be delivered to ${address} at ${time}`
     );
@@ -26,7 +26,11 @@ console.log(restaurantName, openingHours, categories); // Classico Italiano
 //                                                        ['Italian', 'Pizzeria', 'Vegetarian', 'Organic']
 
 //* Changing variable names
-const { restaurantName: name, openingHours: hours, categories: tags } = restaurant;
+const {
+  restaurantName: name,
+  openingHours: hours,
+  categories: tags,
+} = restaurant;
 console.log(name, hours, tags); // Classico Italiano
 //                               { thu: { open: 12, close: 22 },
 //                               fri: { open: 11, close: 23 },
@@ -50,9 +54,9 @@ const {
     fri: { open, close },
   },
 } = restaurant;
-console.log(open, close);
+console.log(open, close); // 11 23
 
-// ? Practical example
+//? Practical example
 restaurant.orderDelivery({
   time: '22:30',
   address: 'Via del Sole, 21',
@@ -62,5 +66,5 @@ restaurant.orderDelivery({
 
 restaurant.orderDelivery({
   address: 'Via del Sole, 21',
-  starterIndex: 1,
-});
+  starterIndex: 1
+})
