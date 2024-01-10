@@ -215,6 +215,7 @@
                 <toc-element topic="Loops-while-Schleife.md"/>
                 <toc-element topic="break-und-continue.md"/>
             </toc-element>
+            <toc-element topic="Über-Objekte-loopen.md"/>
             <toc-element toc-title="Sonstiges">
 
                 <toc-element topic="Typkonvertierung-und-zwang.md"/>
@@ -250,6 +251,14 @@
                 <toc-element topic="Destructuring-Objects.md"/>
                 <toc-element topic="Spread.md"/>
                 <toc-element topic="Rest-Pattern-und-Parameter.md"/>
+                <toc-element topic="Kurzschlüsse-und.md"/>
+                <toc-element topic="Der-Nullish-Coalescing-Operator.md"/>
+                <toc-element topic="Die-Logischen-Zuweisungsoperatoren.md"/>
+            </toc-element>
+            <toc-element topic="Datenstrukturen.md">
+                <toc-element topic="For-Of-Loop.md"/>
+                <toc-element topic="Object-Literals-Verbesserungen.md"/>
+                <toc-element topic="Optional-Chaining.md"/>
             </toc-element>
         </toc-element>
     </toc-element>
