@@ -8,7 +8,7 @@ for (const iterator of array) {
 }
 ````
 
-Der Iterator ist dabei jedes einzelne Element, bzw. unser `i` in einer normalen Loop. Der Array ist ganz einfach der Array, durch welchen wir 
+Der Iterator ist dabei jedes einzelne Element, bzw. unser `i` in einer normalen Loop. Der Array ist ganz einfach der Array, durch welchen wir
 loopen wollen. Beispiel:
 
 <tabs>
@@ -32,7 +32,7 @@ loopen wollen. Beispiel:
 
 ## Index bekommen
 
-Was ist, wenn wir auch den Index brauchen? Es gibt eine Lösungsmöglichkeit: die `entries()`-Methode. Diese gibt uns für jedes Element einen Array 
+Was ist, wenn wir auch den Index brauchen? Es gibt eine Lösungsmöglichkeit: die `entries()`-Methode. Diese gibt uns für jedes Element einen Array
 zurück, der folgende Form hat:
 
 ````Console
@@ -51,5 +51,7 @@ Bei unserem Beispiel würden unsere Einträge, so aussehen:
 ### Beispiel
 
 ````Javascript
-
+for (const [i, el] of menu.entries()) {
+  console.log(`${i + 1}: ${el}`);
+}
 ````
