@@ -264,6 +264,19 @@
                 <toc-element topic="Sets.md"/>
                 <toc-element topic="Maps.md"/>
             </toc-element>
+            <toc-element topic="Strings-js.md">
+                <toc-element topic="Strings-Grundlagen.md"/>
+                <toc-element topic="Strings-Wichtige-Methoden.md"/>
+                <toc-element topic="Strings-Weitere-Methoden.md"/>
+            </toc-element>
+        </toc-element>
+        <toc-element topic="Functions.md">
+            <toc-element topic="Default-Parameters.md"/>
+            <toc-element topic="Higher-Order.md">
+                <toc-element topic="Funktion-die-Callback-Funktionen-annehmen.md"/>
+                <toc-element topic="Funktionen-die-Funktionen-zurückgeben.md"/>
+            </toc-element>
+            <toc-element topic="call-und-apply-Methoden.md"/>
         </toc-element>
     </toc-element>
 </instance-profile>

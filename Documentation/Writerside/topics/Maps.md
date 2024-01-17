@@ -87,5 +87,30 @@ Genau wie beim Set können wir auch bei einer Map die Grösse erhalten mit dem P
 console.log(restaurant.size); // 7
 ````
 
+### Alle Key-Value Paare einer Map löschen
 
+Um alle Key-Value Paare einer Map zu löschen, benutzen wir die `clear()`-Methode:
 
+````Javascript
+restaurant.clear();
+````
+
+### Objekt in eine Map konvertieren
+
+Um Objekte in eine Map zu kopieren, können wir einfach die Werte von `Object.entries()` in eine neue Map legen:
+
+````Javascript
+const hoursMap = new Map(Object.entries(openingHours));
+````
+
+## Über eine Map loopen
+
+Da eine Map ebenfalls ein Iterable ist, ist der `for .. of` Loop ebenfalls verfügbar. 
+
+````Javascript
+for (const [key, value] of question) {
+  if (typeof key === 'number') {
+    console.log(`Answer ${key}: ${value}`);
+  }
+}
+````

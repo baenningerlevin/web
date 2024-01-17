@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fang' das Schweinchen</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+
+      html,
+      body {
+        height: 100%;
+        box-sizing: border-box;
+      }
+
+      .gamefield {
+        background-color: darkolivegreen;
+        width: 50%;
+        height: 50%;
+        top: 25%;
+        left: 25%;
+        border: 2px black solid;
+        -webkit-box-shadow: 5px 5px 15px 5px #505050;
+        box-shadow: 5px 5px 15px 5px #505050;
+        display: grid;
+        place-items: center;
+        position: relative;
+      }
+
+      #pig {
+        position: absolute;
+        background-color: pink;
+        border: 1px solid hotpink;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        left: calc(50% - 15px);
+        top: calc(50% - 15px);
+        transition: 1s ease-out;
+      }
+
+      #pig::after {
+        content: '¨';
+        font-weight: bold;
+        color: pink;
+        background-color: black;
+        height: 10px;
+        width: 12px;
+        position: absolute;
+        top: 14px;
+        left: 9px;
+        padding-left: 3.5px;
+        border-radius: 5px;
+        box-sizing: border-box;
+      }
+
+      .success-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .hidden {
+        display: none;
+      }
+
+      .success {
+        width: max-content;
+        height: max-content;
+        background-color: white;
+        z-index: 999;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+          Geneva, Verdana, sans-serif;
+        padding: 3em;
+      }
+    </style>
+    <script>
+      const getAway = () => {
+        const pigEl = document.getElementById('pig');
+        const gamefieldEl = document.getElementById('gamefield');
+
+        let gamefieldWidth = gamefieldEl.clientWidth;
+        let gamefieldHeight = gamefieldEl.clientHeight;
+        let pigHeight = pigEl.clientHeight + 10;
+        let pigWidth = pigEl.clientWidth + 10;
+
+        console.log(gamefieldWidth, gamefieldHeight);
+
+        let randomTop = Math.random() * (gamefieldHeight - pigHeight);
+        let randomLeft = Math.random() * (gamefieldWidth - pigWidth);
+
+        pigEl.style.top = `${randomTop}px`;
+        pigEl.style.left = `${randomLeft}px`;
+      };
+
+      const catchPig = () => {
+        alert('You did it! 🐷');
+        sessionStorage.clear;
+      };
+    </script>
+  </head>
+  <body>
+    <div class="gamefield" id="gamefield">
+      <div id="pig" onmouseover="getAway()" onclick="catchPig()"></div>
+    </div>
+  </body>
+</html>
