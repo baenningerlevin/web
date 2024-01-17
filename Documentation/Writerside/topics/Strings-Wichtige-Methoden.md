@@ -1,0 +1,3 @@
+# Strings - Wichtige Methoden
+
+Start typing here...

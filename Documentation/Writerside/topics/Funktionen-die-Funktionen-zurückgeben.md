@@ -1,0 +1,3 @@
+# Funktionen, die Funktionen zurückgeben
+
+Start typing here...
