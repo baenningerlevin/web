@@ -10,7 +10,7 @@ for (const day of Object.keys(openingHours)) {
 }
 ````
 
-Dieses `Object.keys(openingHours)` erstellt uns einen Array mit allen Keys. Das heisst im Endeffekt loopen wir wieder über einen Array:
+Dieses `Object.keys(openingHours)` erstellt uns einen Array mit allen Keys. Das heisst, dass wir im Endeffekt wieder über einen Array loopen:
 
 ````Javascript
 const properties = Object.keys(openingHours);

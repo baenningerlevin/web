@@ -277,6 +277,7 @@
                 <toc-element topic="Funktionen-die-Funktionen-zurückgeben.md"/>
             </toc-element>
             <toc-element topic="call-und-apply-Methoden.md"/>
+            <toc-element topic="bind-Methode.md"/>
         </toc-element>
     </toc-element>
     <toc-element topic="Web-Design.md"/>

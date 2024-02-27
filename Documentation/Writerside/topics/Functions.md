@@ -1,3 +1,3 @@
-# Functions
+# Funktionen
 
 Start typing here...

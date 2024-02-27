@@ -28,6 +28,4 @@ rest1.numGuests ??= 10;
 rest2.numGuests ??= 10;
 ````
 
-Das macht genau dasselbe.
-
-Analog gibt es `&&=` und `??=`
+Das macht genau dasselbe, wie der obige Code. Analog gibt es `&&=` und `||=`.

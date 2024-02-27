@@ -71,8 +71,8 @@ const restaurant = {
   },
 };
 
-const { sat, ...weekdays } = restaurant.openingHours;
-console.log(weekdays); // {thu: {…}, fri: {…}}
+const { thu, ...weekdays } = restaurant.openingHours;
+console.log(weekdays); // {{fri: {…}, sat: {…}}
 ````
 
 ## Rest Parameters
@@ -88,7 +88,7 @@ const add = function (...numbers) {
 };
 ````
 
-Diese Funktion kann nun eine endliche Anzahl von Parametern enthalten:
+Diese Funktion kann nun eine unendliche Anzahl von Parametern enthalten:
 
 ````Javascript
 add(2, 3); // 5
