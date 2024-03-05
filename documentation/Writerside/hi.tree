@@ -282,8 +282,16 @@
     </toc-element>
 
     <toc-element topic="TypeScript.md">
-        <toc-element topic="Installation-TS.md"/>
-        <toc-element topic="TypeScript-Kompilieren.md"/>
+        <toc-element topic="Grundlagen-TS.md">
+            <toc-element topic="Installation-TS.md"/>
+            <toc-element topic="TypeScript-Kompilieren.md"/>
+            <toc-element topic="Workflow.md"/>
+        </toc-element>
+        <toc-element topic="Types.md">
+            <toc-element topic="Dynamic-Type.md"/>
+            <toc-element topic="Type-Aliasse.md"/>
+        </toc-element>
+        <toc-element topic="Funktionen-TS.md"/>
     </toc-element>
     <toc-element topic="Sass.md"></toc-element>
     <toc-element topic="Angular.md">
