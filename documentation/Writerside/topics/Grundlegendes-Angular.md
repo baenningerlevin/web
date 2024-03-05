@@ -1,3 +1,3 @@
-# Grundlegendes
+# Grundlagen
 
 Start typing here...
