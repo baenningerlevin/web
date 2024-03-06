@@ -4,6 +4,16 @@ This repository contains all the materials for the internal web-development cour
 
 ## Course Contents
 
-1. Documentation
-2. HTML Files
-3. JS Files
+- **Documentation**
+  - HTML
+  - CSS
+  - JavaScript
+  - TypeScript
+  - Sass
+  - Angular
+- **Examples**
+  - HTML
+  - JavaScript
+  - TypeScript
+  - Sass
+  - Angular
