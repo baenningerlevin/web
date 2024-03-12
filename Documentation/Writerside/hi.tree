@@ -292,6 +292,8 @@
             <toc-element topic="Type-Aliasse.md"/>
         </toc-element>
         <toc-element topic="Funktionen-TS.md"/>
+        <toc-element topic="DOM-TS.md"/>
+        <toc-element topic="Klassen.md"/>
     </toc-element>
     <toc-element topic="Sass.md"></toc-element>
     <toc-element topic="Angular.md">

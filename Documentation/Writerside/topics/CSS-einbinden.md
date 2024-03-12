@@ -31,7 +31,7 @@ Zudem können wir im `<head>` unserer HTML-Datei das `<style>`-Element hinzufüg
     </style>
 </head>
 <body>
-<p>Hallo, ich bin rot und gross!</p>
+    <p>Hallo, ich bin rot und gross!</p>
 </body>
 ```
 

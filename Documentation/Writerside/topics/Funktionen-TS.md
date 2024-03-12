@@ -44,3 +44,29 @@ Um einen Standardwert zu setzen, falls der User nichts mitgibt, machen wir Folge
 ````Typescript
 c: number | string = 'No value'
 ````
+
+## Funktionssignaturen
+
+Wie wir bereits gesehen haben, können wir einer Variable den Typen `Function` geben. Wir können das aber noch ein wenig genauer definieren, das heisst, wir können bei der Deklaration sagen, welche Parameter die Funktion nimmt und welchen Rückgabetypen die Funktion hat:
+
+`````Typescript
+const subtract: (a: number, b: number) => number;
+`````
+
+Nun können wir die Funktion wie folgt initialisieren:
+
+````Typescript
+subtract = (minuend: number, subtrahend: number): number => {
+    return a - c;
+}
+````
+
+**Weiteres Beispiel:**
+
+````Typescript
+const logPerson: (obj: { name: string, age: number }): void;
+
+logPerson = (pers: { name: string, age: number }): void => {
+    console.log(`${pers.name} is ${pers.age} years old`);
+}
+````
