@@ -6,10 +6,10 @@ Um nun unser erstes Angular-Projekt zu erstellen, nutzen wir erneut die Angular 
 ng new <name-of-app> 
 ````
 
-> Damit Angular das File <path>app.module.ts</path> erstellt, müssen wir seit Angular v17 den Schalter `--no-standalone` mitgeben.
+> Ein weiterer Parameter, den wir mitgeben können ist, folgender: `--skip-tests`, so werden keine Dateien für Unit-Tests erstellt
 > 
 > ````Console
-> ng new <name-of-app> --no-standalone
+> ng new <name-of-app> --skip-tests
 > ````
 
 { style="warning" }

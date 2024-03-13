@@ -1,3 +1,3 @@
-# Sass
+# SCSS
 
-Start typing here...
+SCSS ist eine Erweiterung von CSS mit neuen Funktionen und einfacheren Schreibweisen. 
