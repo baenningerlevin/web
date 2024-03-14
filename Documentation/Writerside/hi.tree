@@ -303,7 +303,10 @@
             <toc-element topic="Grundaufbau.md"></toc-element>
         </toc-element>
         <toc-element topic="Komponenten.md">
-            <toc-element topic="Data-Binding.md"></toc-element>
+        </toc-element>
+        <toc-element topic="Data-Binding.md">
+            <toc-element topic="String-Interpolation.md"/>
+            <toc-element topic="Property-Binding.md"/>
         </toc-element>
     </toc-element>
 

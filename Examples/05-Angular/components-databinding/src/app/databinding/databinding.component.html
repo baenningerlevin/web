@@ -1,0 +1,16 @@
+<h4>String Interpolation</h4>
+{{ string }} {{ number }}
+<hr />
+
+<h4>Property Binding</h4>
+<p [innerText]="firstName + ' ' + lastName"></p>
+<div>
+  <label>Your favorite number: </label>
+  <input type="number" [value]="number" />
+</div>
+<div
+  [ngClass]="{ 'blue-border': attachClass }"
+  [ngStyle]="{ 'background-color': backgroundColor }"
+>
+  Text
+</div>

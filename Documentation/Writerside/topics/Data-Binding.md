@@ -1,21 +1,40 @@
 # Data Binding
 
-## One-Way Data Binding
+Mit **Data Binding** können wir **Daten** aus unserem TypeScript-Code in unserem **Template anzeigen lassen**. Mit Data Binding können wir über unseren Component Body **Daten** an das Component Template **schicken** und wir können auf **Events** mit Data Binding **reagieren**.
 
-Um nun Daten aus <path>app-name-component</path> anzuzeigen, können wir ein Property erstellen:
+Um Data Binding zu ermöglichen, gibt es verschiedene **Methoden**:
 
-````Typescript
-@Component({...}})
-export class AppointmentListComponent {
-  appointment: string = "Take dog for a walk";
-}
-````
-
-Hier erstellen wir ein Property namens `appointment` und geben ihm ein Standardwert mit. Um dieses Property nun in unserem HTML-File anzeigen zu lassen, nutzen wir folgende Syntax:
+**String Interpolation**:
 
 ````HTML
-<p>{{appointment}}</p>
+{{ Ausdruck, der in einen String resultiert }}
 ````
 
-Wir nutzen also `{{propertyName}}`, um unser Property zu rendern.
+Mit String Interpolation können wir ein Property aus unserer Klasse im Template ausgeben.
+
+**Property Binding**:
+
+````HTML
+<button [disabled]="Ausdruck, der in einen benötigten Property Type resultiert">
+````
+
+Mit Property Binding können wir bestimmten Code an ein HTML Element binden.
+
+**Event Binding**:
+
+````HTML
+<button (click)="Ausdruck, der das Event behandelt">
+````
+
+Event Binding erlaubt es uns auf Events zu reagieren.
+
+**Two-Way Binding**:
+
+````HTML
+<input [(ngModel)]="gebundene Datenquelle"
+````
+
+Mit Two-Way Data Binding können wir Daten einerseits anzeigen lassen, andererseits hinzufügen können.
+
+
 
