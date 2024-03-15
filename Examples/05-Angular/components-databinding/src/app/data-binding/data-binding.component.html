@@ -14,3 +14,13 @@
 >
   Text
 </div>
+<app-property-binding [name]="'Levin'"></app-property-binding>
+<hr />
+
+<h4>Event Binding</h4>
+<button (click)="onClick($event)">Klick mich</button>
+<app-event-binding (clicked)="string = $event"></app-event-binding>
+<hr />
+
+<h4>Two-Way-Binding</h4>
+<input type="text" [(ngModel)]="string">
