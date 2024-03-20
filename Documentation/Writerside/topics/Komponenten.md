@@ -1,4 +1,4 @@
-# Komponenten
+# Components
 
 Eine Angular-Applikation besteht aus mehreren Komponenten. Alle Komponenten zusammen ergeben am Schluss unsere Applikation.
 
