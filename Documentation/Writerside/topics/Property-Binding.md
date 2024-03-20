@@ -43,7 +43,7 @@ Natürlich müssen wir auch die Klasse in unserer <path>.scss</path> hinzufügen
 
 ## Eigene Properties setzen
 
-Um seine eigenen Properties zu setzen, können wir folgendes machen:
+Um seine eigenen Properties von aussen aus zu setzen, können wir folgendes machen:
 
 <path>**property-binding.component.ts**</path>
 
