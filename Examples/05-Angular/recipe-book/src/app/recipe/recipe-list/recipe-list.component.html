@@ -10,7 +10,6 @@
       <app-recipe-item
         *ngFor="let recipe of recipes"
         [recipe]="recipe"
-        (recipeSelected)="onSelected($event)"
         class="mt-2 rounded"
       ></app-recipe-item>
     </ul>

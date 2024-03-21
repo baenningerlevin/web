@@ -1,11 +1,9 @@
 <h1>Rezeptbuch</h1>
 <div class="row mt-4">
   <div class="col-md-5">
-    <app-recipe-list
-      (recipeSelected)="selectedRecipe = $event"
-    ></app-recipe-list>
+    <app-recipe-list></app-recipe-list>
   </div>
   <div class="col-md-7">
-    <app-recipe-detail [selectedRecipe]="selectedRecipe"></app-recipe-detail>
+    <app-recipe-detail></app-recipe-detail>
   </div>
 </div>

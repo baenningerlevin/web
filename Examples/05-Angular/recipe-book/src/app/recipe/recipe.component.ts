@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { RecipeDetailComponent } from './recipe-detail/recipe-detail.component';
 import { RecipeListComponent } from './recipe-list/recipe-list.component';
-import { Recipe } from './recipe.model';
 
 @Component({
   selector: 'app-recipe',
@@ -10,6 +9,4 @@ import { Recipe } from './recipe.model';
   styleUrl: './recipe.component.scss',
   imports: [RecipeListComponent, RecipeDetailComponent],
 })
-export class RecipeComponent {
-  selectedRecipe!: Recipe;
-}
+export class RecipeComponent {}
