@@ -1,8 +1,20 @@
 <div class="container">
   <div class="row">
     <div class="col-xs-12">
-      <a [routerLink]="['']" [queryParams]="{ token: 500 }">Home</a>
-      <a [routerLink]="['user', input.value]">User</a>
+      <a
+        [routerLink]="['']"
+        [queryParams]="{ token: 500 }"
+        [fragment]="'anchor'"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        >Home</a
+      >
+      <a
+        [routerLink]="['user', input.value]"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        >User</a
+      >
     </div>
   </div>
   <hr />

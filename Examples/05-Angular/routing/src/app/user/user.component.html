@@ -5,5 +5,9 @@
     <button class="btn btn-primary" (click)="onNavigate()">
       Zur Startseite
     </button>
+    <hr />
+    <a [routerLink]="['detail']">Detail</a>
+    <a [routerLink]="['edit']">Edit</a>
+    <router-outlet></router-outlet>
   </div>
 </div>

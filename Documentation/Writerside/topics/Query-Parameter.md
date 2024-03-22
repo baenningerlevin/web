@@ -1,6 +1,10 @@
 # Query Parameter
 
-Query Parameter sind optionale Parameter, die wir einem Pfad mitgeben können. Diese können wir bei der `navigate()`-Methode des Routers als Objekt mitgeben:
+Query Parameter sind optionale Parameter, die wir einem Pfad mitgeben können. 
+
+## Übergabe
+
+Diese können wir bei der `navigate()`-Methode des Routers als Objekt mitgeben:
 
 ````Typescript
 this.router.navigate(['/'], { 
@@ -13,6 +17,8 @@ Hier geben wir den Query Parameter `token` mit dem Wert `100` mit. Diesen Query 
 ````HTML
 <a [routerLink]="['']" [queryParams]="{ token: 500 }">Home</a>
 ````
+
+## Extrahierung
 
 Die Extrahierung funktioniert gleich, wie bei den normalen Routingparametern:
 

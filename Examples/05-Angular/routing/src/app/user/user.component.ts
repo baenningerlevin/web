@@ -1,11 +1,12 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Subscription } from 'rxjs';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-user',
   standalone: true,
-  imports: [],
+  imports: [RouterModule],
   templateUrl: './user.component.html',
   styles: ``,
 })
