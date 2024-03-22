@@ -11,8 +11,8 @@
 <div class="row mt-2" *ngIf="selectedRecipe">
   <div class="col-xs-12">
     <button class="btn btn-success me-2" (click)="onAddToList()">Zur Einkaufsliste</button>
-    <button class="btn btn-primary me-2">Bearbeiten</button>
-    <button class="btn btn-danger">Löschen</button>
+    <button class="btn btn-primary me-2" (click)="onEdit()">Bearbeiten</button>
+    <button class="btn btn-danger" (click)="onDelete()">Löschen</button>
   </div>
 </div>
 <hr *ngIf="selectedRecipe" />

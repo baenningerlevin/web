@@ -1,26 +1,38 @@
-<header class="mt-3">
+<header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+  <a
+    href="/"
+    class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+  >
+    <span class="fs-4">Rezeptbuch</span>
+  </a>
+
   <ul class="nav nav-pills">
     <li class="nav-item">
-      <a class="nav-link" href="#">Rezeptbuch</a>
+      <a [routerLink]="['/rezepte']" routerLinkActive="active" class="nav-link"
+        >Rezepte</a
+      >
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Einkaufsliste</a>
+      <a
+        class="nav-link"
+        [routerLink]="['/einkaufsliste']"
+        routerLinkActive="active"
+        >Einkaufsliste</a
+      >
     </li>
-    <li>
-      <div class="dropdown">
-        <button
-          class="btn btn-primary dropdown-toggle"
-          type="button"
-          data-bs-toggle="dropdown"
-          aria-expanded="false"
-        >
-          Verwaltung
-        </button>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Speichern</a></li>
-          <li><a class="dropdown-item" href="#">Laden</a></li>
-        </ul>
-      </div>
+    <li class="nav-item dropdown">
+      <a
+        class="nav-link dropdown-toggle"
+        data-bs-toggle="dropdown"
+        href="#"
+        role="button"
+        aria-expanded="false"
+        >Verwaltung</a
+      >
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Laden</a></li>
+        <li><a class="dropdown-item" href="#">Speichern</a></li>
+      </ul>
     </li>
   </ul>
 </header>
