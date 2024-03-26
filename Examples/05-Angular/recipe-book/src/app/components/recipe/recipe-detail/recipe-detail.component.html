@@ -8,14 +8,16 @@
     <h1>{{ selectedRecipe?.name }}</h1>
   </div>
 </div>
-<div class="row mt-2" *ngIf="selectedRecipe">
+<div class="row mt-2">
   <div class="col-xs-12">
-    <button class="btn btn-success me-2" (click)="onAddToList()">Zur Einkaufsliste</button>
+    <button class="btn btn-success me-2" (click)="onAddToList()">
+      Zur Einkaufsliste
+    </button>
     <button class="btn btn-primary me-2" (click)="onEdit()">Bearbeiten</button>
     <button class="btn btn-danger" (click)="onDelete()">Löschen</button>
   </div>
 </div>
-<hr *ngIf="selectedRecipe" />
+<hr />
 <div class="row">
   <div class="col-xs-12">
     <p>{{ selectedRecipe?.description }}</p>

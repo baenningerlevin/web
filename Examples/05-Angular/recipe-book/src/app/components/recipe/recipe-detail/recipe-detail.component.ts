@@ -1,10 +1,11 @@
 import { CommonModule } from '@angular/common';
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { Subscription } from 'rxjs';
-import { ShoppingListService } from '../../shopping-list/shopping-list.service';
-import { Recipe } from '../recipe.model';
-import { RecipeService } from '../recipe.service';
+import { catchError, Subscription, throwError } from 'rxjs';
+import { Recipe } from '../../../models/recipe.model';
+import { ErrorHandlingService } from '../../../services/error-handling.service';
+import { RecipeService } from '../../../services/recipe.service';
+import { ShoppingListService } from '../../../services/shopping-list.service';
 
 @Component({
   selector: 'app-recipe-detail',
@@ -15,19 +16,21 @@ import { RecipeService } from '../recipe.service';
 })
 export class RecipeDetailComponent implements OnInit, OnDestroy {
   selectedRecipe?: Recipe;
-  recipeId!: number;
   private subscription!: Subscription;
 
   constructor(
     private recipeService: RecipeService,
     private shoppingListService: ShoppingListService,
     private activatedRoute: ActivatedRoute,
-    private router: Router
+    private router: Router,
+    private errorHandlingService: ErrorHandlingService
   ) {}
 
   ngOnInit(): void {
     this.subscription = this.activatedRoute.params.subscribe((params) => {
-      this.selectedRecipe = this.recipeService.getRecipe(+params['id']);
+      this.recipeService.getRecipe(+params['id']).subscribe((recipe) => {
+        this.selectedRecipe = recipe;
+      });
     });
   }
 
@@ -46,7 +49,10 @@ export class RecipeDetailComponent implements OnInit, OnDestroy {
   }
 
   onDelete() {
-    this.recipeService.deleteRecipe(this.recipeId);
-    this.router.navigate(['/rezepte']);
+    if (this.selectedRecipe?.id !== undefined) {
+      this.recipeService.deleteRecipe(this.selectedRecipe.id).subscribe(() => {
+        this.router.navigate(['/rezepte']);
+      });
+    }
   }
 }

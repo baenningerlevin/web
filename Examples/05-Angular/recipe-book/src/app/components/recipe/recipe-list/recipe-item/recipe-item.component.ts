@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { Recipe } from '../../recipe.model';
+import { Recipe } from '../../../../models/recipe.model';
 
 @Component({
   selector: 'app-recipe-item',
@@ -11,5 +11,4 @@ import { Recipe } from '../../recipe.model';
 })
 export class RecipeItemComponent {
   @Input() recipe!: Recipe;
-  @Input() recipeId!: number;
 }

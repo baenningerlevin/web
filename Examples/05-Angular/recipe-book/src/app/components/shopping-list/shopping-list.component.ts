@@ -1,8 +1,8 @@
 import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
-import { Ingredient } from '../shared/ingredient.model';
+import { Ingredient } from '../../models/ingredient.model';
+import { ShoppingListService } from '../../services/shopping-list.service';
 import { ShoppingListAddComponent } from './shopping-list-add/shopping-list-add.component';
-import { ShoppingListService } from './shopping-list.service';
 
 @Component({
   selector: 'app-shopping-list',
